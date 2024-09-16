@@ -1,0 +1,25 @@
+/* * {
+  margin-top: 0;
+  margin-left: auto;
+} */
+body{
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  background-color: #b3e9f3;
+}
+
+h1 {
+  background-color: #6590d1;
+  box-shadow: 3px 3px #48789f;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+}
+
+img{
+  height: 500px;
+  width: 400px;
+}
