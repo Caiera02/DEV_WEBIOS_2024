@@ -1,4 +1,4 @@
-* {
+ * {
   margin-top: 0;
   margin-left: auto;
 }
@@ -22,6 +22,7 @@ p {
   font-style: italic;
   line-height: 200%;
   text-align: center;
+  background-color: aqua;
 }
 
 footer {
