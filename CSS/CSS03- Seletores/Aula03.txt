@@ -1,0 +1,10 @@
+
+
+Toda vez que eu precisar acessar um id no css devo utilizar o # antes do nome do indetificador
+
+Como config um class ?
+
+	.name_class{
+			propriedade:
+
+		    }
