@@ -1,0 +1,48 @@
+body {
+    margin: auto;
+    border: 1px solid black;
+    background-color: rgb(212, 239, 223);
+}
+
+figure {
+    border: 1px solid black;
+    margin-right: 770px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}
+
+p {
+    font-size: 20px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#img2 {
+    float: left;
+    margin-right: 4%;
+}
+
+#p2 {
+    margin-bottom: 13%;
+}
+
+#img3 {
+    float: right;
+    margin-right: 4%;
+}
+
+#p3 {
+    margin-bottom: 13%;
+}
+
+#p4{
+    clear: both;
+}
