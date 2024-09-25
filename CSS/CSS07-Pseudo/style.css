@@ -1,0 +1,37 @@
+button{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 2px aquamarine ;
+    box-shadow: 10px 10px 20px black;
+}
+
+button:hover{
+    background-color: red;
+    color: black;
+    box-shadow: 10px 10px 20px black;
+}
+p:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+input:focus{
+    background-color: red;
+}
+li:first-child:hover{
+    border:solid 2px red;
+    font-size: 50px;
+}
+li:nth-of-type(4):hover{
+    border:solid 2px orange;
+    font-size: 50px;
+}
+li:nth-of-type(2):hover{
+    border:solid 2px orange;
+    font-size: 50px;
+}
+li:nth-of-type(3):hover{
+    border:solid 2px orange;
+    font-size: 50px;
+}
