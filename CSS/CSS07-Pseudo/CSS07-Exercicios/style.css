@@ -48,3 +48,8 @@ footer{
     margin-bottom: 2%;
     text-align: center;
 }
+
+::selection{
+    background-color: #314a20;
+    color: white;
+}
