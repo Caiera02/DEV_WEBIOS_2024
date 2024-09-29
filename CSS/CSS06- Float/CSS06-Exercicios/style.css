@@ -2,11 +2,13 @@ body {
   margin: auto;
   width: 80%;
   background-color: rgb(212, 239, 223);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
-  margin-top: 5%;
+  margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 1%;
+  font-size: 40px;
 }
 
 figure {
@@ -15,6 +17,7 @@ figure {
 
 figcaption {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
@@ -52,4 +55,13 @@ div {
 
 ol {
   margin-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#p5{
+  font-size: 15px;
 }
