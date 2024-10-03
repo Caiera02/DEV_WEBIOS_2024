@@ -1,0 +1,1 @@
+Toda tela é divida em 12 colunas, assim facilitando o desenvolvimento do css
