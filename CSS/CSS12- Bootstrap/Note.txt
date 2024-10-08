@@ -1,0 +1,8 @@
+Boostrap não precisamos de muita coisa.
+
+Boostrap dá codigo pronto, ele é um framework
+
+Como usar ?
+
+1- instalar o pacote na maquina
+2- Usar o link, podemos usar o CSS
