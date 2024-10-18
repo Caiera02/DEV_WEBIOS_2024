@@ -23,3 +23,21 @@ let num1 = parseInt(prompt("Digite um numero: "))
 let num2 = parseInt(prompt("Digite o segundo numero: "))
 let res = alert(num1 + num2)
 alert(`Vacilão esse é o seu resultado ${res}`)
+
+//substring
+
+let navegador = ('Brave')
+let a = navegador.substring(2)
+let b = navegador.substring(1,3)
+
+// charArt
+
+// pega cada caracter
+
+
+// ----------------------------------
+let frase = 'Na moral mano'
+console.log(frase)
+
+let novaF = frase.split("")
+console.log(novaF);
