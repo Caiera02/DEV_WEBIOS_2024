@@ -1,7 +1,7 @@
 var nota = 10
 var nota2 = 5
 var nota3 = 3
-var nota4 = 5
+var nota4 = 2
 
 var soma = nota + nota2 + nota3 +nota4
 var result = soma / 4
