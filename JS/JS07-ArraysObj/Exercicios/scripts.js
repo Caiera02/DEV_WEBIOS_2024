@@ -14,6 +14,12 @@ let aluno = [
 //console.log( `A nota da Maria é: ${aluno[5].nota}`);
 
 let convert = JSON.stringify(aluno)
+<<<<<<< HEAD
 
 console.log(aluno);
 //console.log(JSON.parse(convert));
+=======
+console.log(aluno)
+//console.log(JSON.parse(convert));
+
+>>>>>>> abe6604d07ef4d8740a6cdd89ab88fa7f765cf21
