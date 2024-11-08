@@ -15,5 +15,5 @@ let aluno = [
 
 let convert = JSON.stringify(aluno)
 
-console.log(JSON.parse(convert));
-
+console.log(aluno);
+//console.log(JSON.parse(convert));
