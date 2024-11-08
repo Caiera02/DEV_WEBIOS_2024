@@ -14,6 +14,6 @@ let aluno = [
 //console.log( `A nota da Maria é: ${aluno[5].nota}`);
 
 let convert = JSON.stringify(aluno)
-
+console.log(aluno)
 //console.log(JSON.parse(convert));
 
