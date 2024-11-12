@@ -9,17 +9,24 @@ class contaBancaria {
         this.numeroConta = numeroConta
 
         contaPoupança(){
-            dsfa
+            // A taxa tem o valor 1,5% encima do salario
+            //se o salario for 300
         }
         contaCorrente(){
-
+            // A taxa tem o valor 3,6% encima do salario
         }
         contaEstudante(){
-
+            // A taxa tem o valor 1,6% encima do salario
         }
     }
 }
 
+//instanciando objetos
+
 let conta1 = new contaBancaria()
 let conta2 = new contaBancaria()
 let conta3 = new contaBancaria()
+
+console.log( 1);
+console.log( 2);
+console.log( 3);
