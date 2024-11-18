@@ -36,15 +36,15 @@ let conta1 = new contaBancaria('Caio', 18, 1500, 'M', 100, "Poupança", 123)
 let conta2 = new contaBancaria('Caiera', 21, 10000, 'BI', 101, "Corrente", 345)
 let conta3 = new contaBancaria('Caioba', 22, 2000, 'F', 102, "Estudante", 678)
 
-console.log('++ Conta Poupança ++');
+console.log('** Conta Poupança **');
 console.log(conta1)
 console.log(conta1.contaPoupanca());
 
 
-console.log('++ Conta Corrente ++');
+console.log('== Conta Corrente ==');
 console.log(conta2);
 console.log(conta2.contaCorrente());
 
-console.log('++ Conta Estudante ++');
+console.log('** Conta Estudante **');
 console.log(conta3);
 console.log(conta3.contaEstudante());
