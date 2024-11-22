@@ -38,8 +38,6 @@ async function BuscaCep() {
         
     })
 
-    // let exemplo = res.json();
-    // console.log(exemplo)
 }
 
 // BuscaCep();
