@@ -27,7 +27,7 @@
 async function BuscaCep() {
 
     let cep1= document.getElementById('cep').value
-    // let url = `https://viacep.com.br/ws/ ${cep1}/json/`
+    // let url = `https://viacep.com.br/ws/${cep1}/json/`
     let url = 'https://viacep.com.br/ws/'+ cep1 +'/json/'
 
     await fetch(url).then((response) => {
