@@ -1,6 +1,3 @@
-
-
-
 // let url = `https://viacep.com.br/ws/${cep}/json/`
 
 // async function BuscaCep() {

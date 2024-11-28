@@ -16,65 +16,63 @@ KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZq
 
 <body>
     <section class="container mt-3 p-2 border border-2 border-success rounded-4">
-        <h1 class="bg-light text-center p-1 m-0"><i class="text-primary fa-solid faglobe pe-3"></i>Busca CEP</h1>
-        <h2 class="text-center text-secondary p-2">Entre com um número válido de CEP</h2>
+        <h1 class="bg-light text-center p-1 m-0"><i class="text-primary fa-solid faglobe pe-3"></i>Tabele FIPE</h1>
+        <h2 class="text-center text-secondary p-2">Entre com o codigo valido da marca</h2>
         <form method="get" action=".">
+
             <div class="container row mb-3">
                 <div class="col-2">
-                    <label class="form-label fw-bold">Cep:</label>
+                    <label class="form-label fw-bold">Marca:</label>
                 </div>
                 <div class="col-3">
-                    <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
-                        onblur="pesquisaCEP(this.value);" />
+                    <input name="Marca" type="text" id="marca" value="" size="10" maxlength="9"
+                        onchange="BuscaFipe()" />
                 </div>
             </div>
+
             <div class="container row mb-1">
                 <div class="col-2">
-                    <label class="form-label col fw-bold">Rua:</label>
+                    <label class="form-label col fw-bold">Modelo:</label>
                 </div>
                 <div class="col-3">
-                    <input class="col" name="rua" type="text" id="rua" size="45" />
+                    <input class="col" name="rua" type="text" id="modelo" size="45" />
                 </div>
             </div>
+
             <div class="container row">
                 <div class="col-2">
-                    <label class="form-label col fw-bold">Complemento:</label>
+                    <label class="form-label col fw-bold">Valor:</label>
                 </div>
                 <div class="col-3">
-                    <input name="complemento" type="text" id="complemento" size="20" /><br />
+                    <input name="complemento" type="text" id="valor" size="20" /><br />
+                </div>
+            </div>
+
+            <div class="container row mb-1">
+                <div class="col-2">
+                    <label class="form-label col fw-bold">Combustivel:</label>
+                </div>
+                <div class="col-3">
+                    <input name="bairro" type="text" id="comb" size="40" />
                 </div>
             </div>
             <div class="container row mb-1">
                 <div class="col-2">
-                    <label class="form-label col fw-bold">Bairro:</label>
+                    <label class="form-label col fw-bold">Ano:</label>
                 </div>
                 <div class="col-3">
-                    <input name="bairro" type="text" id="bairro" size="40" />
+                    <input name="cidade" type="text" id="ano" size="40" />
                 </div>
             </div>
-            <div class="container row mb-1">
-                <div class="col-2">
-                    <label class="form-label col fw-bold">Cidade:</label>
-                </div>
-                <div class="col-3">
-                    <input name="cidade" type="text" id="cidade" size="40" />
-                </div>
-            </div>
-            <div class="container row mb-1">
-                <div class="col-2">
-                    <label class="form-label col fw-bold">Estado:</label>
-                </div>
-                <div class="col-3">
-                    <input name="uf" type="text" id="uf" size="2" />
-                </div>
-            </div>
+
+            
         </form>
     </section>
     <br>
     <div class="container">
         <div id="output"></div>
     </div>
-    <script src="./js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
